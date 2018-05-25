@@ -1,9 +1,13 @@
+
 // Go v1.0.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
 
 #include <SFML/Graphics.hpp>
+
+// TODO: Make a 2D vector of vectors in the Board class and think about how you will set it up and track debug for it using SFML
+
 
 int main()
 {
@@ -24,6 +28,7 @@ int main()
 		window.draw(shape);
 		window.display();
 	}
+
 
 	return 0;
 }
